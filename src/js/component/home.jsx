@@ -12,7 +12,7 @@ const Home = () => {
 			<Jumbotron></Jumbotron>
 			<section style={{ display: "flex", gap: 18, overflow: "auto", padding: 18 }}>
 				{
-					[1, 2, 3, 4, 5, 6, 7, 8].map(() => <Card></Card>)
+					[...Array(8).keys()].map(() => <Card></Card>)
 				}
 			</section>
 		</div>
