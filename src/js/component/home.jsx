@@ -7,7 +7,7 @@ import { Card } from "./Card";
 //create your first component
 const Home = () => {
 	return (
-		<div classNameName="text-center">
+		<div className="text-center">
 			<Navbar></Navbar>
 			<Jumbotron></Jumbotron>
 			<section style={{ display: "flex", gap: 18, overflow: "auto", padding: 18 }}>
