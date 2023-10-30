@@ -1,3 +1,15 @@
+.bg-body-tertiary {
+    background-color: #dae7daca;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+}
+
 
 /* 
 
@@ -10,7 +22,3 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
-
-.bg-body-tertiary {
-    background-color: #c3c3c3; /* Reemplaza esto con tu color deseado */
-}
