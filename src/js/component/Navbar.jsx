@@ -4,7 +4,7 @@ export const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg ms-0 navbar-dark bg-dark fixed-top">
-                <div className="container">
+                <div className="container mt-1">
                     <a className="navbar-brand ps-2" href="#">Start Bootstrap</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>

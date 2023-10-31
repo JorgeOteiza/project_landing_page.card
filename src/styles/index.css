@@ -12,6 +12,12 @@ body {
 .wrapper {
     flex: 1;
 }
+.container {
+    margin-top: 20px;
+}
+.card {
+    width: 100%;
+}
 
 .footer {
     background-color: #333;
@@ -22,10 +28,6 @@ body {
     bottom: 0;
     width: 100%;
 }
-.card-title {
-    margin-top: 3px;
-}
-
 
 /* 
 
