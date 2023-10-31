@@ -1,6 +1,3 @@
-.bg-body-tertiary {
-    background-color: #dae7daca;
-}
 body {
     margin: 0;
     padding: 0;
@@ -8,35 +5,25 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 .wrapper {
     flex: 1;
 }
 .container {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
-.card {
-    width: 100%;
-}
-
 .footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+    padding-bottom: 15px;
     position: relative;
+    width: 100%;
     bottom: 0;
+}
+.custom-bg-color{
+    background-color: #c5e3e3;
     width: 100%;
 }
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
