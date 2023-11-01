@@ -13,17 +13,34 @@ body {
     border-radius: none;
     min-width: 100%
 }
-
 .footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 50px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    transition: bottom 0.3s ease-in-out;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease-in-out;
 }
+
+.footer.visible {
+    transform: translateY(0%);
+}
+
+.footer.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+.footer.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in-out;
+}
+
+
 body.scrolled .footer {
     bottom: -100px;
 }
