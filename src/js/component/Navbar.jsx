@@ -5,7 +5,7 @@ export const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg pb-0 navbar-dark bg-dark fixed-top d-flex flex-wrap justify-content-center mb-4">
                 <div className="container mt-1 mb-2 pr-4 pl-2">
-                    <a className="navbar-brand ps-2" href="#">Start Bootstrap</a>
+                    <a className="navbar-brand ps-2" href="#">WaveSetshop</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
