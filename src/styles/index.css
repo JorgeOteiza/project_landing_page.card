@@ -8,19 +8,24 @@ body {
 .wrapper {
     flex: 1;
 }
-.container {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.d-flex {
+    padding: 25px;
+    border-radius: none;
+    min-width: 100%
 }
+
 .footer {
     background-color: #333;
     color: white;
     text-align: center;
-    padding: 25px;
-    padding-bottom: 15px;
-    position: relative;
-    width: 100%;
+    padding: 50px;
+    position: fixed;
     bottom: 0;
+    width: 100%;
+    transition: bottom 0.3s ease-in-out;
+}
+body.scrolled .footer {
+    bottom: -100px;
 }
 .custom-bg-color{
     background-color: #c5e3e3;

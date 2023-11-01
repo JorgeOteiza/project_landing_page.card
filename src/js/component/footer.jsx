@@ -2,8 +2,9 @@ import React from "react";
 
 export const Footer = () => {
     return (
-        <div className="footer bg-black color-white">
+        <div className="footer bg-black color-white fixed-bottom">
             <p>Copyright @ Your Website 2023</p>
         </div>
     );
 };
+

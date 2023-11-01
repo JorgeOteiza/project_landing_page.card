@@ -3,14 +3,14 @@ import React from "react";
 export const Navbar = () => {
     return (
         <>
-            <nav className="navbar navbar-expand-lg pb-0 pt-1 navbar-dark bg-dark fixed-top">
-                <div className="container mt-1 mb-2">
-                    <a className="navbar-brand ps-2" href="#">Start Bootstrap</a>
+            <nav className="navbar navbar-expand-lg pb-0 pt-1 navbar-dark bg-dark fixed-top d-flex flex-wrap justify-content-center">
+                <div className="container mt-1 mb-2 p-0">
+                    <a className="navbar-brand ps-0" href="#">Start Bootstrap</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav ms-auto ps-2">
+                        <ul className="navbar-nav ms-auto">
                             <li className="nav-item me-auto">
                                 <a className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
