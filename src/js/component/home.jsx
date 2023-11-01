@@ -12,12 +12,12 @@ const Home = () => {
     ]
     return (
         <>
-            <div className="wrapper d-flex flex-column">
+            <div className="wrapper d-flex flex-column mb-4">
                 <Navbar />
                 <Jumbotron />
-                <div className="container d-flex flex-wrap justify-content-center">
+                <div className="container d-flex flex-wrap justify-content-center p-3 pt-0 mb-4">
                     {[...Array(4).keys()].map((data, index) => (
-                        <Card key={index} imageUrl={data.imageUrl} title={data.title} description={data.description} buttonText={data.buttonText} />
+                        <Card key={index} imageUrl={data.imageUrl} title={data.title} description={data.description} buttonText={data.buttonText} className="mb-4" />
 
                     ))}
                 </div>
