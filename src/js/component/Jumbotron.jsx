@@ -2,7 +2,7 @@ import React from "react";
 
 export const Jumbotron = () => {
     return (
-        <div className="p-3 pb-0 mb-4 pt-5 mt-4 rounded-3 text-start mx-auto"> {/* Agregado mt-4 para el margen superior */}
+        <div className="p-3 pb-0 mb-4 pt-5 pt-4 rounded-3 text-start mx-auto"> {/* Agregado mt-4 para el margen superior */}
             <div className="container py-5 mt-2 custom-bg-color">
                 <h1 className="display-1 mx-3 mt-2 fw-normal">A Warm Welcome!</h1>
                 <p className="col-md-8 mx-3 mt-2 fs-4 w-auto">
